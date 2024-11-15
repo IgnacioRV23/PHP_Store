@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    background-color: #EBF2F0;
+    font-family:Arial Helvetica, sans-serif;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nav main main main"
+    ;
+}
+
+.emoji
+{
+    font-size: 2vw;
+}
+
+a {
+    font-size: 1.2vw !important;
+}
+
+h1
+{
+    font-size: 2vw !important;
+}
+
+h2
+{
+    font-size: 1.5vw !important;
+}
+
+* {
+    color: #0C1404;
+}

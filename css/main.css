@@ -1,0 +1,79 @@
+.main
+{
+    padding: 0 1vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.container_home
+{
+    gap: 1vw;    
+    display: flex;
+    align-items: center;
+}
+
+.grid_category
+{
+    row-gap: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card
+{
+    flex: 1 1 calc(33.33% - 10px);
+    max-width: 20vw;
+    
+    border: .3vw solid #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 2.5vw 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card_header
+{
+    text-align: center;
+}
+
+.card_header img
+{
+    max-width: 10vw;
+}
+
+.card_body
+{
+    margin: 0 1vw;
+}
+.card_body p 
+{
+    color: #AFB1AC;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+
+.card_body h3 {
+    margin-bottom: 0;
+}
+
+/* Select first element */
+.card:nth-child(3n+1) {
+    /* Card 1, 4, 7... */
+    background-color: #FFDCF4;
+    
+    
+}
+
+/* Select second element */
+.card:nth-child(3n+2) {
+    /* Card 2, 5, 8... */
+    background-color: #FFEEE0; 
+}
+
+/* Select third element */
+.card:nth-child(3n) {
+    /* Card 3, 6, 9... */
+    background-color: #C7F8FB;
+}

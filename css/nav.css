@@ -1,0 +1,38 @@
+.nav {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container_navTitle {
+    padding: 25px;
+}
+
+.nav h1 {
+    margin-top: 0;
+    color: #A0CA66;
+}
+
+.navElement {
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.container_navElements {
+    margin-left: 2vw;
+}
+
+.navElement a {
+    color: #AFB1AC;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 1vw;
+    transition: all .5s;
+    border-left: 3px solid #fff;
+}
+
+.navElement a:hover {
+    transition: all .5s;
+    color: #A0CA66;
+    border-left: 3px solid #A0CA66;
+}
